@@ -25,3 +25,11 @@ else:
 
 # Print the final reminder
 print(reminder)
+# Add time-bound info
+if time_bound == "yes":
+    final_message = f"Reminder: {base_message} that requires immediate attention today!"
+else:
+    final_message = f"Reminder: {base_message}. Consider completing it when you have free time."
+
+# Print the final reminder
+print(final_message)
