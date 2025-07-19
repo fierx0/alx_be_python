@@ -17,14 +17,7 @@ match priority:
     case _:
         base_message = f"'{task}' has an unrecognized priority level"
 
-# Add time sensitivity condition
-if time_bound == "yes":
-    reminder = f"Reminder: {base_message} that requires immediate attention today!"
-else:
-    reminder = f"Note: {base_message}. Consider completing it when you have free time."
 
-# Print the final reminder
-print(reminder)
 # Add time-bound info
 if time_bound == "yes":
     final_message = f"Reminder: {base_message} that requires immediate attention today!"
