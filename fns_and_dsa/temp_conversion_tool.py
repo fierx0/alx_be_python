@@ -1,6 +1,10 @@
 # temp_conversion_tool.py
 
+<<<<<<< HEAD
 # Global conversion factors (formatted exactly as required)
+=======
+# Global conversion factors
+>>>>>>> 7bf4da497d4ebc3628e3797d60bb998387a0590a
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
